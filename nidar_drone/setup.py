@@ -28,6 +28,8 @@ setup(
             'altitude_subscriber = nidar_drone.altitude_subscriber:main',
             'arm_service = nidar_drone.arm_service:main',
             'arm_client = nidar_drone.arm_client:main',
+            'takeoff_land = nidar_drone.takeoff_land:main',
+            'waypoint_nav = nidar_drone.waypoint_nav:main',
         ],
     },
 )
